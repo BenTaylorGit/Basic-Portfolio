@@ -11,14 +11,15 @@ body {
   #header {
     background: #ffffff;
     border: #cccccc;
-    width: 960px;
-    margin-bottom: 50px;
+    margin: auto;
+    position: relative;
     
   }
   
   footer {
       background: #666666;
       text-align: center;
+      margin: auto;
   }
 
   .background
@@ -35,21 +36,26 @@ body {
 
   .myName {
     padding: 20px;
-    margin: 0;
-    margin-bottom: 60px;
     float: left;
     background: #4aaaa5;
+    position: fixed;
+    top: 6%;
+    left: 25%;
+  }
+
+  .line {
+      width: 900px;
+      margin: auto;
   }
 
   .nav {
-    float: right;
+
     padding: 20px;
-    margin: 60px;
+
   }
   
   h1 {
-    padding: 20px 0;
-    margin: 0;
+    padding: 20px;
     font-size: 28px;
     color: #eee;
     font-family: Georgia, 'Times New Roman', Times, serif;
