@@ -5,24 +5,38 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    
   }
   
   #header {
     background: #ffffff;
     border: #cccccc;
     width: 960px;
+    margin-bottom: 50px;
     
   }
   
   footer {
       background: #666666;
+      text-align: center;
+  }
+
+  .background
+  {
+      background-image: color url("assets/images/pattern.png");
+  }
+
+  .contentContainer {
+        width: 960px;
+        margin: auto;
+        background: #ffffff;
+        
   }
 
   .myName {
     padding: 20px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     float: left;
     background: #4aaaa5;
   }
@@ -30,7 +44,7 @@ body {
   .nav {
     float: right;
     padding: 20px;
-    margin: 8px;
+    margin: 60px;
   }
   
   h1 {
@@ -54,4 +68,5 @@ body {
   .container {
     width: 1024px;
     margin: 0 auto;
+    
   }
