@@ -11,7 +11,6 @@ body {
   #header {
     background: #ffffff;
     border: #cccccc;
-    /* padding: 5px; */
     margin: auto;
     position: relative;
     margin-bottom: 40px;
@@ -34,15 +33,6 @@ body {
     float: right;
     right: 24%;
   }
-  
-  
-  /* footer {
-      background: #666666;
-      text-align: center;
-      margin: auto;
-      border-top: 5px solid #4aaaa5;
-      
-  } */
 
   footer {
     position: absolute;
@@ -57,16 +47,10 @@ body {
     color: white;
 }
 
-  /* .background
-  {
-      background-image: color url("assets/images/pattern.png");
-  } */
-
  
   .contentContainer {
         width: 960px;
-        /* position: relative; */
-
+        position: relative;
         margin: auto;
         background: #ffffff;
         padding: 20px;
@@ -92,17 +76,24 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
+  h3 {
+    margin: auto;
+    position: fixed;
+    background: #4aaaa5;
+
+  }
+
   .image {
     float: left;
     margin-right: 20px;
   }
 
+  .portfolioImage {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
   a {
     color: #333;
-  }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-    
   }
