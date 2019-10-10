@@ -49,7 +49,7 @@ body {
 
  
   .contentContainer {
-        width: 960px;
+        width: 920px;
         position: relative;
         margin: auto;
         background: #ffffff;
@@ -58,8 +58,11 @@ body {
   }
 
   .line {
-      /* width: 900px; */
       margin: auto;
+      /* border: #333;
+      
+      height: 50px; */
+
   }
 
   
@@ -96,6 +99,12 @@ body {
 
   p{
     line-height: 200%;
+    margin-top: -10px;
+  }
+
+  .formP{
+    margin-bottom: -5px;
+    margin-top:10px;
   }
 
   a {
@@ -103,8 +112,12 @@ body {
   }
 
   .textBox{
-    width:960px;
+    width:920px;
     height: 160px;
+  }
+
+  .textLine{
+    width:920px;
   }
 
   .button {
