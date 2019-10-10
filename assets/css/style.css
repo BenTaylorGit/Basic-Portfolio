@@ -1,3 +1,4 @@
+/* styling for body */
 body {
     padding: 0;
     margin: 0;
@@ -5,28 +6,29 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    
   }
-  
-  #header {
+
+/* styling for the header container */
+#header {
     background: #ffffff;
     border: #cccccc;
     margin: auto;
     position: relative;
     margin-bottom: 40px;
     overflow: hidden;
-    
   }
 
-  .myName {
-
+/* styling for my name block in the header */
+.myName {
     padding-right: 30px;
     padding-left: 30px;
     left: 480px;
     position: absolute;
     background: #4aaaa5;
   }
-  .nav {
+
+/* styling for the navigation bar links */
+.nav {
     position: relative;
     padding-top: 30px;
     padding-right: 15px;
@@ -35,7 +37,8 @@ body {
     right: 24%;
   }
 
-  footer {
+/* footer styling with sticky footer */
+footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -44,23 +47,21 @@ body {
     left: 0;
     height: 50px;
     text-align: center;
-    /* line-height: 30px; */
     color: white;
-}
-
-
- 
-  .contentContainer {
-        width: 920px;
-        position: relative;
-        margin: auto;
-        background: #ffffff;
-        padding: 20px;
-        overflow: hidden;
   }
 
+  /*main content container styling  */
+.contentContainer {
+    width: 920px;
+    position: relative;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    overflow: hidden;
+  }
 
-  h1 {
+/* h1 styling */
+h1 {
     padding-left: 20px;
     padding-top:10px;
     padding-bottom:20px;
@@ -69,21 +70,22 @@ body {
     color: #eee;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
-  h2 {
+ 
+/* h2 styling */
+h2 {
     color: #4aaaa5;
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  
-
-  .image {
+/* styling for self portrait image */
+.image {
     float: left;
     margin-right: 20px;
   }
 
-  .portfolioImage {
+/* Portfolio page image styling */
+.portfolioImage {
     position: relative;
     float: left;
     text-align: center;
@@ -91,13 +93,15 @@ body {
     margin-bottom: 40px;
   }
 
-  .portfolioImage:hover{
+/* portfolio image hover effect */
+.portfolioImage:hover{
     opacity: 0.7;
   }
 
-  .topLeft {
+/* aligning text above respective portfolio image */
+.topLeft {
     position: absolute;
-    top: 195px;
+    top: 220px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -108,9 +112,11 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  .topRight {
+
+/* aligning text above respective portfolio image */
+.topRight {
     position: absolute;
-    top: 195px;
+    top: 220px;
     left: 300px;
     background-color: #4aaaa5;
     color: white;
@@ -122,9 +128,10 @@ body {
     text-align: center;
   }
 
-  .middleLeft {
+/* aligning text above respective portfolio image */
+.middleLeft {
     position: absolute;
-    top: 392px;
+    top: 417px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -135,9 +142,11 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  .middleRight {
+
+/* aligning text above respective portfolio image */
+.middleRight {
     position: absolute;
-    top: 392px;
+    top: 417px;
     left: 300px;
     background-color: #4aaaa5;
     color: white;
@@ -149,9 +158,10 @@ body {
     text-align: center;
   }
 
-  .bottomLeft{
+/* aligning text above respective portfolio image */
+.bottomLeft{
     position: absolute;
-    top: 594px;
+    top: 619px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -162,43 +172,53 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  .meText{
+
+/* styling for text on about me page */
+.meText{
     line-height: 200%;
     margin-top: -10px;
   }
 
-  .formP{
+/* Styling for form text */
+.formP{
     margin-bottom: -5px;
     margin-top:10px;
     line-height: 200%;
   }
 
-  a:link {
+/* styling for default link color */
+a:link {
     color: #333;
   }
 
-  a:visited{
+/* styling for link when visited */
+a:visited{
     color: #333;
   }
 
-  a:hover {
+/* styling for link when mouse hovers over it */
+a:hover {
     color: #4aaaa5;
   }
 
-  a:active {
+/* styling for link when it is clicked */
+a:active {
     color: #99EBFF;
   }
 
-  .textBox{
+/* setting width and height of text area on the contact page */
+.textBox{
     width:920px;
     height: 160px;
   }
 
-  .textLine{
+/* setting the width of the text field on contact page */
+.textLine{
     width:920px;
   }
 
-  .button {
+/* styling for form button */
+.button {
     background: #4aaaa5;
     font-size: 15px;
     color: #eee;
@@ -210,7 +230,8 @@ body {
     margin-top: 20px;
   }
 
-  .button:hover {
+/* hover effect for form button */
+.button:hover {
     background: #99EBFF;
     color: #333;
   }

@@ -1,4 +1,8 @@
+<!DOCTYPE html>
+
 <html lang="en">
+
+    <!-- head content -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,41 +10,79 @@
         <title>Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+
+    <!-- Setting background to the pattern image -->
     <body background="assets/images/pattern.png">
 
+        <!-- Creating a header div that will contain my name and the navigation bar -->
         <div id="header">
-                <div class="myName"><h1>Ben Taylor</h1></div>
-                <div class="nav">   
-                        <a href="contact.html">Contact</a>
-                    </div><div class="nav">|</div>
-                <div class="nav">  
-                        <a href="portfolio.html">Portfolio</a>
-                    
+
+                <!-- Div that houses my name -->
+                <div class="myName">
+                    <h1>Ben Taylor</h1>
                 </div>
-                        <div class="nav">|</div>
+    
+                <!-- next set of divs make up the navigation bar -->
+                <div class="nav">   
+                    <a href="contact.html">Contact</a>
+                </div>
+    
+                <div class="nav">|</div>
+    
+                <div class="nav">  
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+    
+                <div class="nav">|</div>
                         
                 <div class="nav">
-                        <a href="index.html">About</a>
-                    </div>
+                    <a href="index.html">About</a>
+                </div>
+    
+                <!-- clearing the float -->
                 <div style="clear: both;"></div>
-        
+    
             </div>
-    <div class="contentContainer">
-        <div><h2>Contact</h2></div>
-        <hr style="height:2px;border:none;color:#cccccc;background-color:#cccccc;"/>
-        <form>
-            <div class="contactForm"><p class ="formP">Name</p>
-            <input type="text" name="name" class="textLine" placeholder="John Doe"></div>
-            <p class ="formP">Email</p>
-            <input type="text" name="email" class="textLine"  placeholder="example@gmail.com">
-            <p class ="formP">Message</p>
-          <textarea class="textBox"></textarea>
-            <input type="submit" value="Submit" class="button">
+            <!-- end of head div -->
 
-          </form>
+        <!-- div container for the content of the page -->
+        <div class="contentContainer">
+            <div>
+                <h2>Contact</h2>
+            </div>
+        
+            <!-- horizontal rule with inline styling -->
+            <hr style="height:2px;border:none;color:#cccccc;background-color:#cccccc;"/>
+        
+            <!-- creating a form -->
+            <form>
+                
+                <!-- Name paragraph with text input field -->
+                <p class ="formP">Name</p>
+                <input type="text" name="name" class="textLine" placeholder="John Doe">
+
+                <!-- Name paragraph with text input field -->
+                <p class ="formP">Email</p>
+                <input type="text" name="email" class="textLine"  placeholder="example@gmail.com">
+
+                <!-- Name paragraph with text area field -->
+                <p class ="formP">Message</p>
+                <textarea class="textBox"></textarea>
+
+                <!-- submit button -->
+                <input type="submit" value="Submit" class="button">
+
+            </form>
+            <!-- end of form -->
+
         </div>
-<footer>
-    <p>Copyright &copy;</p>
-</footer>
+        <!--end of Container div  -->
+
+        <!-- footer section -->
+        <footer>
+            <p>Copyright &copy;</p>
+        </footer>
+
     </body>
+
 </html>
