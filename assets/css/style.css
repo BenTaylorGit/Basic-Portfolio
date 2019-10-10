@@ -94,6 +94,27 @@ body {
     margin-bottom: 20px;
   }
 
+  p{
+    line-height: 200%;
+  }
+
   a {
     color: #333;
+  }
+
+  .textBox{
+    width:960px;
+    height: 160px;
+  }
+
+  .button {
+    background: #4aaaa5;
+    font-size: 15px;
+    color: #eee;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
   }
