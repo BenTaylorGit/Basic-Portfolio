@@ -25,7 +25,6 @@ body {
     left: 480px;
     position: absolute;
     background: #4aaaa5;
-    
   }
   .nav {
     position: relative;
@@ -41,13 +40,14 @@ body {
     bottom: 0px;
     width: 100%;
     background-color: #666666;
-    border-top: 6px #4aaaa5 solid;
+    border-top: 8px #4aaaa5 solid;
     left: 0;
     height: 50px;
     text-align: center;
-    line-height: 30px;
+    /* line-height: 30px; */
     color: white;
 }
+
 
  
   .contentContainer {
@@ -91,9 +91,13 @@ body {
     margin-bottom: 40px;
   }
 
+  .portfolioImage:hover{
+    opacity: 0.7;
+  }
+
   .topLeft {
     position: absolute;
-    top: 215px;
+    top: 195px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -106,7 +110,7 @@ body {
   }
   .topRight {
     position: absolute;
-    top: 215px;
+    top: 195px;
     left: 300px;
     background-color: #4aaaa5;
     color: white;
@@ -120,7 +124,7 @@ body {
 
   .middleLeft {
     position: absolute;
-    top: 400px;
+    top: 392px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -133,7 +137,7 @@ body {
   }
   .middleRight {
     position: absolute;
-    top: 410px;
+    top: 392px;
     left: 300px;
     background-color: #4aaaa5;
     color: white;
@@ -147,7 +151,7 @@ body {
 
   .bottomLeft{
     position: absolute;
-    top: 615px;
+    top: 594px;
     left: 20px;
     background-color: #4aaaa5;
     color: white;
@@ -158,7 +162,7 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  p{
+  .meText{
     line-height: 200%;
     margin-top: -10px;
   }
@@ -166,10 +170,23 @@ body {
   .formP{
     margin-bottom: -5px;
     margin-top:10px;
+    line-height: 200%;
   }
 
-  a {
+  a:link {
     color: #333;
+  }
+
+  a:visited{
+    color: #333;
+  }
+
+  a:hover {
+    color: #4aaaa5;
+  }
+
+  a:active {
+    color: #99EBFF;
   }
 
   .textBox{
@@ -191,4 +208,9 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 20px;
+  }
+
+  .button:hover {
+    background: #99EBFF;
+    color: #333;
   }
